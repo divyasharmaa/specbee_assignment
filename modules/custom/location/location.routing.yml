@@ -1,0 +1,13 @@
+location.config:
+
+  path: '/admin/config/location/config'
+
+  defaults:
+
+    _form: '\Drupal\location\Form\LocationConfigForm'
+
+    _title: 'Local Configuration'
+
+  requirements:
+
+    _permission: 'administer site configuration'
