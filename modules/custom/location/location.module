@@ -1,0 +1,9 @@
+<?php
+
+function location_theme($existing, $type, $theme, $path) {
+  return [
+    'my_template' => [
+      'variables' => ['content' => NULL],
+    ],
+  ];
+}

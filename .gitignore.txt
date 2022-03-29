@@ -1,0 +1,2 @@
+# Ignore the local settings file
+web/sites/default/settings.local.php
